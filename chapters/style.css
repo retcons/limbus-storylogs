@@ -65,7 +65,7 @@ td:first-child {
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 15px;
   }
   img {
     max-width: 10vh;
