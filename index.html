@@ -13,9 +13,10 @@
         display: flex;
         flex-direction: column;
         place-items: center;
+        padding: 10px;
       }
 
-      h1 {
+      h1,h2 {
         margin: 0;
       }
 
@@ -24,24 +25,27 @@
         color: white;
         border: none;
         font-family: Helvetica;
+        font-size: larger;
         padding: 10px;
         align-items: center;
         font-weight: bold;
-        text-shadow: 1px 1px black, -1px 1px black, -1px -1px black,
-          1px -1px black, -0.05em 0.05em rgba(147, 140, 148, 0.41);
+        text-shadow: black 0px 0px 2px, black 0px 0px 3px, black 0px 0px 4px, black 0px 0px 5px, black 0px 0px 7px,1.5px 1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, -1.5px -1.5px 0 black, 1.5px 0px 0 black, 0px 1.5px 0 black, -1.5px 0px 0 black, 0px -1.5px 0 black;
         transition: 0.1s;
         text-decoration: none;
         height: 150px;
-        width: 450px;
+        max-width: 450px;
+        width: 100%;
         background-size: 100% 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         place-items: center;
         margin: 15px;
       }
 
       a:hover {
-        color: #d31d1d;;
+        font-size: x-large;
+        color: #ff2929;
       }
     </style>
   </head>
@@ -50,38 +54,46 @@
         <p>
           Managed by reqons on discord / @like4tbh on twitter, please notify me
           if anything is out of order or missing. <br>Only contains the main
-          storyline thus far. All credit goes to Project Moon I don't claim anything ever.
+          storyline thus far. All credit goes to Project Moon I don't claim anything ever.<br><br>This should be used as reference material, please do not try to get into the game through this!! You'll miss out on the awesome art, amazing music, and wonderful voice acting otherwise. This is literally JUST the text content and I've included no cutscene graphics or character titles (and I don't plan to add them either)
         </p>
+        <div style="display: flex; flex-wrap: wrap;width: 100%; justify-content: center;">
         <a href="chapters/prologue.html"
           style="background-image: url(./assets/covers/chapter0.png)"
         >
-          <h1>Selva Oscura</h1>
+          <h2>Selva Oscura</h2>
+          <sup>Prologue</sup>
         </a>
         <a href="chapters/chapter1.html" style="background-image: url(./assets/covers/chapter1.png)"
         >
-          <h1>The Outcast</h1>
+          <h2>The Outcast</h2>
+          <sup>Chapter 1</sup>
         </a>
         <a href="chapters/chapter2.html" 
           style="background-image: url(./assets/covers/chapter2.png)"
         >
-          <h1>The Unloving</h1>
+          <h2>The Unloving</h2>
+          <sup>Chapter 2</sup>
         </a>
         <a href="chapters/chapter3.html" 
           style="background-image: url(./assets/covers/chapter3.png)"
         >
-          <h1>The Unconfronting</h1>
+          <h2>The Unconfronting</h2>
+          <sup>Chapter 3</sup>
         </a>
         <a href="chapters/chapter3.5.html" 
           style="background-image: url(./assets/covers/chapter3.5.png)"
         >
-          <h1>
+          <h2>
             Hell's Chicken
-            </h1>
+            </h2>
+            <sup>Chapter 3.5</sup>
         </a>
         <a href="chapters/chapter4.html" 
           style="background-image: url(./assets/covers/chapter4.png)"
         >
-          <h1>The Unchanging</h1>
+          <h2>The Unchanging</h2>
+          <sup>Chapter 4</sup>
         </a>
+      </div>
   </body>
 </html>
