@@ -1,4 +1,4 @@
-# Limbus Company Observation Logs
+# Limbus Company Story Logs
 ### https://retcons.github.io/limbus-storylogs/
 A collection for easy access to the main storyline in Limbus Company. Only the main storyline. I'll add events if I feel like it. Maybe
 
