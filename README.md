@@ -5,7 +5,7 @@ A collection for easy access to the main storyline in Limbus Company. Only the m
 ## Changelog
 
 Latest Version: v1.0<br>
-Last Updated: June 21, 2023
+Last Updated: July 29, 2023
 
 <details>
 <summary>Update History</summary>
