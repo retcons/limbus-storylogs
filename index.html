@@ -16,7 +16,8 @@
         padding: 10px;
       }
 
-      h1,h2 {
+      h1,
+      h2 {
         margin: 0;
       }
 
@@ -29,7 +30,11 @@
         padding: 10px;
         align-items: center;
         font-weight: bold;
-        text-shadow: black 0px 0px 2px, black 0px 0px 3px, black 0px 0px 4px, black 0px 0px 5px, black 0px 0px 7px,1.5px 1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, -1.5px -1.5px 0 black, 1.5px 0px 0 black, 0px 1.5px 0 black, -1.5px 0px 0 black, 0px -1.5px 0 black;
+        text-shadow: black 0px 0px 2px, black 0px 0px 3px, black 0px 0px 4px,
+          black 0px 0px 5px, black 0px 0px 7px, 1.5px 1.5px 0 black,
+          1.5px -1.5px 0 black, -1.5px 1.5px 0 black, -1.5px -1.5px 0 black,
+          1.5px 0px 0 black, 0px 1.5px 0 black, -1.5px 0px 0 black,
+          0px -1.5px 0 black;
         transition: 0.1s;
         text-decoration: none;
         height: 150px;
@@ -43,66 +48,137 @@
         margin: 15px;
       }
 
-      .chapterselect a:hover {
+      .chapterselect a:hover,
+      .miniselect a:hover {
         font-size: x-large;
         color: #ff2929;
       }
-      .chapterselect {
-        display: flex; flex-wrap: wrap;width: 100%; justify-content: center;
+      .chapterselect,
+      .miniselect {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+      }
+
+      .miniselect a {
+        background-color: transparent;
+        color: white;
+        border: 10px solid white;
+        border-bottom: 50px solid white;
+        font-family: Helvetica;
+        font-size: larger;
+        padding: 10px;
+        align-items: center;
+        font-weight: bold;
+        text-shadow: black 0px 0px 2px, black 0px 0px 3px, black 0px 0px 4px,
+          black 0px 0px 5px, black 0px 0px 7px, 1.5px 1.5px 0 black,
+          1.5px -1.5px 0 black, -1.5px 1.5px 0 black, -1.5px -1.5px 0 black,
+          1.5px 0px 0 black, 0px 1.5px 0 black, -1.5px 0px 0 black,
+          0px -1.5px 0 black;
+        transition: 0.1s;
+        text-decoration: none;
+        height: 250px;
+        max-width: 250px;
+        width: 100%;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        margin: 15px;
+      }
+
+      
+      .miniselect a:hover {
+        box-shadow: 0px 0px 5px 2.5px #ffc400;
       }
     </style>
   </head>
   <body>
-        <h1>Limbus Company Main Story Library</h1>
-        <p>
-          Managed by <a href="https://github.com/retcons" style="color:blanchedalmond">jordan</a>, please notify me
-          if anything is out of order or missing. <br>Only contains the main
-          storyline thus far. All credit goes to Project Moon I don't claim anything ever.<br><br>This should be used as reference material, please do not try to get into the game through this. You'll miss out on the awesome art, amazing music, and wonderful voice acting otherwise. This is literally JUST the text content and I haven't included any cutscene graphics or character titles (and I don't plan to add them either). <br><br><b>Unused lines or dialogue may be included since these are datamined straight from the in-game files.</b>
-        </p>
-        <div class="chapterselect">
-        <a href="chapters/prologue.html"
-          style="background-image: url(./assets/covers/chapter0.png)"
-        >
-          <h2>Selva Oscura</h2>
-          <sup>Prologue</sup>
-        </a>
-        <a href="chapters/chapter1.html" style="background-image: url(./assets/covers/chapter1.png)"
-        >
-          <h2>The Outcast</h2>
-          <sup>Chapter 1</sup>
-        </a>
-        <a href="chapters/chapter2.html" 
-          style="background-image: url(./assets/covers/chapter2.png)"
-        >
-          <h2>The Unloving</h2>
-          <sup>Chapter 2</sup>
-        </a>
-        <a href="chapters/chapter3.html" 
-          style="background-image: url(./assets/covers/chapter3.png)"
-        >
-          <h2>The Unconfronting</h2>
-          <sup>Chapter 3</sup>
-        </a>
-        <a href="chapters/chapter3.5.html" 
-          style="background-image: url(./assets/covers/chapter3.5.png)"
-        >
-          <h2>
-            Hell's Chicken
-            </h2>
-            <sup>Chapter 3.5</sup>
-        </a>
-        <a href="chapters/chapter4.html" 
-          style="background-image: url(./assets/covers/chapter4.png)"
-        >
-          <h2>The Unchanging</h2>
-          <sup>Chapter 4</sup>
-        </a>
-        <a href="chapters/chapter4.5.html" 
-          style="background-image: url(./assets/covers/chapter4.5.png)"
-        >
-          <h2>The Magic Hellbus</h2>
-          <sup>Chapter 4.5</sup>
-        </a>
-      </div>
+    <h1>Limbus Company Main Story Library</h1>
+    <p>
+      Managed by
+      <a href="https://github.com/retcons" style="color: blanchedalmond"
+        >jordan</a
+      >, please notify me if anything is out of order or missing. <br />Only
+      contains the main storyline thus far. All credit goes to Project Moon I
+      don't claim anything ever.<br /><br />This should be used as reference
+      material, please do not try to get into the game through this. You'll miss
+      out on the awesome art, amazing music, and wonderful voice acting
+      otherwise. This is literally JUST the text content and I haven't included
+      any cutscene graphics or character titles (and I don't plan to add them
+      either). <br /><br /><b
+        >Unused lines or dialogue may be included since these are datamined
+        straight from the in-game files.</b
+      >
+    </p>
+    <div class="chapterselect">
+      <a
+        href="chapters/prologue.html"
+        style="background-image: url(./assets/covers/chapter0.png)"
+      >
+        <h2>Selva Oscura</h2>
+        <sup>Prologue</sup>
+      </a>
+      <a
+        href="chapters/chapter1.html"
+        style="background-image: url(./assets/covers/chapter1.png)"
+      >
+        <h2>The Outcast</h2>
+        <sup>Chapter 1</sup>
+      </a>
+      <a
+        href="chapters/chapter2.html"
+        style="background-image: url(./assets/covers/chapter2.png)"
+      >
+        <h2>The Unloving</h2>
+        <sup>Chapter 2</sup>
+      </a>
+      <a
+        href="chapters/chapter3.html"
+        style="background-image: url(./assets/covers/chapter3.png)"
+      >
+        <h2>The Unconfronting</h2>
+        <sup>Chapter 3</sup>
+      </a>
+      <a
+        href="chapters/chapter3.5.html"
+        style="background-image: url(./assets/covers/chapter3.5.png)"
+      >
+        <h2>Hell's Chicken</h2>
+        <sup>Chapter 3.5</sup>
+      </a>
+      <a
+        href="chapters/chapter4.html"
+        style="background-image: url(./assets/covers/chapter4.png)"
+      >
+        <h2>The Unchanging</h2>
+        <sup>Chapter 4</sup>
+      </a>
+      <a
+        href="chapters/chapter4.5.html"
+        style="background-image: url(./assets/covers/chapter4.5.png)"
+      >
+        <h2>The Magic Hellbus</h2>
+        <sup>Chapter 4.5</sup>
+      </a>
+    </div>
+    <div class="miniselect">
+      <a
+        href="chapters/minis/dantes_notes.html"
+        style="background-image: url(./assets/covers/min1.png)"
+      >
+        <h2>Dante's Notes</h2>
+        <sup>Episode Mini</sup>
+      </a>
+      <a
+        href="chapters/minis/past_the_backdoor.html"
+        style="background-image: url(./assets/covers/min2.png)"
+      >
+        <h2>Rooms Past the Backdoor</h2>
+        <sup>Episode Mini</sup>
+      </a>
+    </div>
   </body>
 </html>
