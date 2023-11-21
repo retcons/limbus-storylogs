@@ -63,11 +63,30 @@ td:first-child {
   text-align: center;
 }
 
+.name {
+  padding-top: 3.5px;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+  width:90%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-shadow: 0 0 2.5px #000, 0 0 2.5px #000,0 0 2.5px #000,0 0 2.5px #000,0 0 2.5px #000;
+}
+.icon {
+  position: relative;
+  text-align: center;
+}      
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 15px;
   }
   img {
     max-width: 10vh;
+  }
+  .name {
+    width: 80%;
   }
 }
